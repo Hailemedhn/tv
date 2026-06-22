@@ -97,6 +97,10 @@
       margin: 10px 0;
     }
 
+    a {
+      color: #86efac;
+    }
+
     .note {
       background: rgba(34, 197, 94, 0.1);
       border-left: 4px solid var(--accent);
@@ -110,6 +114,19 @@
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 22px;
+    }
+
+    .code-box {
+      display: inline-block;
+      font-size: 34px;
+      font-weight: 800;
+      letter-spacing: 4px;
+      background: #f8fafc;
+      color: #020617;
+      padding: 16px 28px;
+      border-radius: 16px;
+      margin: 10px 0 20px;
+      border: 3px solid var(--accent);
     }
 
     footer {
@@ -143,7 +160,7 @@
       </p>
 
       <!-- Replace the # below with your real APK, Google Play, or download link -->
-      <a class="download-btn" href="https://bit.ly/3NxWgqT" download>Download App</a>
+      <a class="download-btn" href="#" download>Download App</a>
     </section>
 
     <section class="card">
@@ -185,6 +202,44 @@
     </section>
 
     <section class="card">
+      <h2>Install on Android TV using Downloader</h2>
+      <p>
+        If you are using an Android TV stick or Android TV Box, you can install Kora using the
+        <strong>Downloader</strong> app.
+      </p>
+
+      <ol>
+        <li>
+          On your Android TV device, open your app store and install
+          <strong>Downloader</strong>.
+        </li>
+        <li>
+          You can also find Downloader information here:
+          <a href="https://www.aftvnews.com/downloader/" target="_blank" rel="noopener noreferrer">
+            https://www.aftvnews.com/downloader/
+          </a>
+        </li>
+        <li>Open the <strong>Downloader</strong> app on your Android TV device.</li>
+        <li>When Downloader asks for a URL or code, enter this code:</li>
+      </ol>
+
+      <div class="code-box">1912400</div>
+
+      <ol start="5">
+        <li>Select <strong>Go</strong> or <strong>Download</strong>.</li>
+        <li>When the Kora APK finishes downloading, select <strong>Install</strong>.</li>
+        <li>After installation, open Kora from your Android TV apps list.</li>
+      </ol>
+
+      <div class="note">
+        If Android TV blocks the installation, go to your device settings and allow
+        <strong>Downloader</strong> to install unknown apps. The setting is usually under
+        <strong>Settings → Security & Restrictions → Unknown Sources</strong> or
+        <strong>Settings → Apps → Special app access → Install unknown apps</strong>.
+      </div>
+    </section>
+
+    <section class="card">
       <h2>Before installing</h2>
       <ul>
         <li>Make sure your device is connected to the internet.</li>
@@ -195,7 +250,7 @@
   </main>
 
   <footer>
-    © 2026 Kora. All rights reserved.
+    © 2026 Tade All rights reserved.
   </footer>
 </body>
 </html>
